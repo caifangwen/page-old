@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  @font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b31d28;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2 {
+  background-color: #d73a49;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #22863a;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #005cc5;
+  font-weight: 700;
+}
+
+.markdown-body .pl-mi {
+  color: #24292e;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #24292e;
+  font-weight: 700;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffeef0;
+  color: #b31d28;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #f0fff4;
+  color: #22863a;
+}
+
+.markdown-body .pl-mc {
+  background-color: #ffebda;
+  color: #e36209;
+}
+
+.markdown-body .pl-mi2 {
+  background-color: #005cc5;
+  color: #f6f8fa;
+}
+
+.markdown-body .pl-mdr {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  color: #032f62;
+  text-decoration: underline;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.markdown-body hr:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body hr:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-bottom: 8px!important;
+  padding-top: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.markdown-body hr {
+  background-color: #e1e4e8;
+  border: 0;
+  height: .25em;
+  margin: 24px 0;
+  padding: 0;
+}
+
+.markdown-body blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  color: #6a737d;
+  font-size: .85em;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.markdown-body dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.markdown-body table {
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  word-break: normal;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  max-width: auto;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+}
+
+.markdown-body .commit-tease-sha {
+  color: #444d56;
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 90%;
+}
+
+.markdown-body .blob-wrapper {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: rgba(27,31,35,.3);
+  cursor: pointer;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  min-width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  color: #24292e;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  overflow: visible;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  background: #ffea7f;
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+  color: #444d56;
+  display: inline-block;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  border-color: #0366d6;
+  position: relative;
+  z-index: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+/*# sourceURL=webpack://./node_modules/github-markdown-css/github-markdown.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9naXRodWItbWFya2Rvd24tY3NzL2dpdGh1Yi1tYXJrZG93bi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7RUFDMUIsMkRBQXF0RTtBQUN2dEU7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLDJCQUEyQjtBQUM3Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2Qsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7QUFFQTs7Ozs7O0VBTUUsY0FBYztFQUNkLHNCQUFzQjtFQUN0QixrQkFBa0I7QUFDcEI7O0FBRUE7Ozs7OztFQU1FLHFCQUFxQjtBQUN2Qjs7QUFFQTs7Ozs7O0VBTUUsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsMEJBQTBCO0VBQzFCLDhCQUE4QjtFQUM5QixjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLGtJQUFrSTtFQUNsSSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTs7Ozs7OztFQU9FLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0VBQ0UsY0FBYztFQUNkLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7OztFQUdFLGNBQWM7RUFDZCxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFD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 */
+  </style>
+  <style>
+  /**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #9a6e3a;
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+/*# sourceURL=webpack://./node_modules/prismjs/themes/prism.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9wcmlzbWpzL3RoZW1lcy9wcmlzbS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7RUFJRTs7QUFFRjs7Q0FFQyxZQUFZO0NBQ1osZ0JBQWdCO0NBQ2hCLHdCQUF3QjtDQUN4QixzRUFBc0U7Q0FDdEUsY0FBYztDQUNkLGdCQUFnQjtDQUNoQixnQkFBZ0I7Q0FDaEIsb0JBQW9CO0NBQ3BCLGtCQUFrQjtDQUNsQixpQkFBaUI7Q0FDakIsZ0JBQWdCOztDQUVoQixnQkFBZ0I7Q0FDaEIsY0FBYztDQUNkLFdBQVc7O0NBRVgscUJBQXFCO0NBQ3JCLGtCQUFrQjtDQUNsQixpQkFBaUI7Q0FDakIsYUFBYTtBQUNkOztBQUVBOztDQUVDLGlCQUFpQjtDQUNqQixtQkFBbUI7QUFDcEI7O0FBRUE7O0NBRUMsaUJBQWlCO0NBQ2pCLG1CQUFtQjtBQUNwQjs7QUFFQTtDQUNDOztFQUVDLGlCQUFpQjtDQUNsQjtBQUNEOztBQUVBLGdCQUFnQjtBQUNoQjtDQUNDLFlBQVk7Q0FDWixjQUFjO0NBQ2QsY0FBYztBQUNmOztBQUVBOztDQUVDLG1CQUFtQjtBQUNwQjs7QUFFQSxnQkFBZ0I7QUFDaEI7Q0FDQyxhQUFhO0NBQ2IsbUJBQW1CO0NBQ25CLG1CQUFtQjtBQUNwQjs7QUFFQTs7OztDQUlDLGdCQUFnQjtBQUNqQjs7QUFFQTtDQUNDLFdBQVc7QUFDWjs7QUFFQTtDQUNDLFdBQVc7QUFDWjs7QUFFQTs7Ozs7OztDQU9DLFdBQVc7QUFDWjs7QUFFQTs7Ozs7O0NBTUMsV0FBVztBQUNaOztBQUVBOzs7OztDQUtDLGNBQWM7Q0FDZCxvRUFBb0U7Q0FDcEUsaUNBQWlDO0FBQ2xDOztBQUVBOzs7Q0FHQyxXQUFXO0FBQ1o7O0FBRUE7O0NBRUMsY0FBYztBQUNmOztBQUVBOzs7Q0FHQyxXQUFXO0FBQ1o7O0FBRUE7O0NBRUMsaUJBQWlCO0FBQ2xCO0FBQ0E7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2IiLCJzb3VyY2VSb290IjoiIn0= */
+  </style>
+  <style>
+  
+  </style>
+  <style>
+    .markdown-body {
+      font-family: -apple-system,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+
+    @media not print {
+      .markdown-body {
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    }
+
+    .hf-container {
+      color: #24292e;
+      line-height: 1.3;
+    }
+
+    .markdown-body .highlight pre,
+    .markdown-body pre {
+      white-space: pre-wrap;
+    }
+    .markdown-body table {
+      display: table;
+    }
+    .markdown-body img[data-align="center"] {
+      display: block;
+      margin: 0 auto;
+    }
+    .markdown-body img[data-align="right"] {
+      display: block;
+      margin: 0 0 0 auto;
+    }
+    .markdown-body li.task-list-item {
+      list-style-type: none;
+    }
+    .markdown-body li > [type=checkbox] {
+      margin: 0 0 0 -1.3em;
+    }
+    .markdown-body input[type="checkbox"] ~ p {
+      margin-top: 0;
+      display: inline-block;
+    }
+    .markdown-body ol ol,
+    .markdown-body ul ol {
+      list-style-type: decimal;
+    }
+    .markdown-body ol ol ol,
+    .markdown-body ol ul ol,
+    .markdown-body ul ol ol,
+    .markdown-body ul ul ol {
+      list-style-type: decimal;
+    }
+  </style>
+  <style>.markdown-body a.footnote-ref {
+  text-decoration: none;
+}
+
+.footnotes {
+  font-size: .85em;
+  opacity: .8;
+}
+
+.footnotes li[role="doc-endnote"] {
+  position: relative;
+}
+
+.footnotes .footnote-back {
+  position: absolute;
+  font-family: initial;
+  top: .2em;
+  right: 1em;
+  text-decoration: none;
+}
+
+.inline-math.invalid,
+.multiple-math.invalid {
+  color: rgb(255, 105, 105);
+}
+
+.toc-container {
+  width: 100%;
+}
+
+.toc-container .toc-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.toc-container li,
+.toc-container ul,
+.toc-container ul li {
+  list-style: none !important;
+}
+
+.toc-container > ul {
+  padding-left: 0;
+}
+
+.toc-container ul li span {
+  display : flex;
+}
+
+.toc-container ul li span a {
+  color: inherit;
+  text-decoration: none;
+}
+.toc-container ul li span a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.toc-container ul li span span.dots {
+  flex: 1;
+  height: 0.65em;
+  margin: 0 10px;
+  border-bottom: 2px dotted black;
+}
+
+/*# sourceURL=webpack://./src/muya/lib/assets/styles/exportStyle.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9tdXlhL2xpYi9hc3NldHMvc3R5bGVzL2V4cG9ydFN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLFNBQVM7RUFDVCxVQUFVO0VBQ1YscUJBQXFCO0FBQ3ZCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBOzs7RUFHRSwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7QUFDQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxPQUFPO0VBQ1AsY0FBYztFQUNkLGNBQWM7RUFDZCwrQkFBK0I7QUFDakMiLCJzb3VyY2VSb290IjoiIn0= */</style>
+  <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
+</head>
+<body>
+  <article class="markdown-body"><h1 class="atx" id="dibibi-greenhouses-网站全面分析报告">DiBiBi Greenhouses 网站全面分析报告</h1>
+<blockquote>
+<p>分析对象：<a href="https://dibibi-greenhouses.com/">dibibi-greenhouses.com</a><br>分析日期：2026年5月<br>分析维度：内容质量、SEO、技术架构、品牌定位、转化路径、内容矩阵</p>
+</blockquote>
+<hr>
+<h2 class="atx" id="一、品牌与定位概览">一、品牌与定位概览</h2>
+<h3 class="atx" id="11-品牌背景">1.1 品牌背景</h3>
+<ul>
+<li><strong>公司主体</strong>：浙江迪比比科技有限公司（Zhejiang DiBiBi Technologies Co., Ltd.），总部位于浙江金华</li>
+<li><strong>品牌定位</strong>：法国起源的花园与户外生活品牌（"Garden &amp; Outdoor Living Brand originated from France"）</li>
+<li><strong>产品线</strong>：铝合金温室大棚（核心）、户外储藏棚、花园配件、智能IoT套件、婴儿产品、家用消毒产品</li>
+<li><strong>市场定位</strong>：B2C（家庭园艺爱好者）+ B2B（批发商、经销商、OEM/ODM客户）</li>
+<li><strong>全球化程度</strong>：已在超过20个国家安装交付，参展 GLEE（英国）、SPOGA+GAFA（德国）、GARDENIA（波兰）等国际展会</li>
+</ul>
+<h3 class="atx" id="12-核心问题诊断">1.2 核心问题诊断</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>现状评分（/10）</th>
+<th>核心问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>品牌一致性</td>
+<td>5</td>
+<td>自称"法国品牌"实为中国制造，母公司同时做婴儿车、消毒液，品牌聚焦度低</td>
+</tr>
+<tr>
+<td>内容质量</td>
+<td>6</td>
+<td>博客内容存在但深度不足，产品描述重复率高</td>
+</tr>
+<tr>
+<td>SEO 优化</td>
+<td>5</td>
+<td>关键词布局初步，长尾词覆盖不足，内链结构弱</td>
+</tr>
+<tr>
+<td>转化设计</td>
+<td>4</td>
+<td>CTA 单一，缺乏购物流程引导，B2B 转化路径不清晰</td>
+</tr>
+<tr>
+<td>技术架构</td>
+<td>5</td>
+<td>基本可用，但存在明显优化空间</td>
+</tr>
+<tr>
+<td>内容矩阵完整性</td>
+<td>4</td>
+<td>内容形态单一，缺乏视频、案例、对比等高价值内容</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 class="atx" id="二、内容分析">二、内容分析</h2>
+<h3 class="atx" id="21-现有内容架构">2.1 现有内容架构</h3>
+<p>网站目前包含以下主要内容板块：</p>
+<pre><code class="fenced-code-block">dibibi-greenhouses.com/
+├── 首页 (Homepage)
+├── 产品系列
+│   ├── /the-premium/          # P系列（P1-P9）标准系列
+│   ├── /the-ultimate/         # U系列高端系列
+│   ├── /high-quality-greenhouse/
+│   └── 各产品独立页（如 /the-ultimate-u1-series-6ft/）
+├── /technologies-center/      # R&amp;D 与技术
+├── /rd/                       # 研发中心
+├── /ideas/                    # 灵感/内容集合
+├── /blog/                     # 博客
+├── /faqs/                     # 常见问题
+├── /distributor/              # 经销商招募
+└── /contact/                  # 联系页</code></pre>
+<h3 class="atx" id="22-内容质量问题">2.2 内容质量问题</h3>
+<h4 class="atx" id="问题一：产品描述高度雷同">问题一：产品描述高度雷同</h4>
+<p>几乎每个产品系列描述均使用相同模板语言：</p>
+<blockquote>
+<p>"P1/P2/P3 series uses a higher standard of manufacturing process, quality and performance…"</p>
+</blockquote>
+<p>没有差异化的产品卖点阐述，用户无法快速区分各系列的核心区别，严重影响购买决策。</p>
+<h4 class="atx" id="问题二：品牌叙事混乱">问题二：品牌叙事混乱</h4>
+<ul>
+<li>网站声称品牌"originated from France"，但联系页地址全为中国（金华、杭州）</li>
+<li>品牌名下还包含婴儿产品线（DouxBebe）、HCIO消毒液研发，与花园温室定位割裂</li>
+<li>"It's always day 1 at DiBiBi"的 slogan 使用频率过高但语境突兀</li>
+</ul>
+<h4 class="atx" id="问题三：内容深度不足">问题三：内容深度不足</h4>
+<p>博客/Ideas 页虽有文章，但存在以下问题：</p>
+<ul>
+<li>文章结构缺乏权威感（无数据引用、无实验案例、无用户故事）</li>
+<li>内容与产品页之间内链稀少，流量无法有效引流至转化页</li>
+<li>行业内容与公司新闻混放（公司年会、员工活动等内容与产品指南并列）</li>
+</ul>
+<h4 class="atx" id="问题四：常见问题页质量参差不齐">问题四：常见问题页质量参差不齐</h4>
+<p>FAQ 页包含部分高质量内容（如温室选址、雪负荷、风阻说明），但：</p>
+<ul>
+<li>部分答案未与具体产品型号绑定，缺乏商业引导</li>
+<li>缺少安装教程类内容（如视频、步骤图）</li>
+<li>未覆盖B2B买家最关心的MOQ、交期、定制流程问题</li>
+</ul>
+<h3 class="atx" id="23-优质内容亮点">2.3 优质内容亮点</h3>
+<ul>
+<li><strong>Greenhouse Dimensions 101</strong>：结构化的专业指南，覆盖小/中/大规格对比，面向 B2B 和 B2C 的双重场景，是目前最强的 SEO 内容</li>
+<li><strong>The Ultimate Guide to Greenhouse Types</strong>：涵盖 lean-to、A-frame、Gothic arch、Victorian 等多类型，内容全面</li>
+<li><strong>经销商页面</strong>：明确列出合作条件和产品范围，是 B2B 漏斗的重要入口</li>
+</ul>
+<hr>
+<h2 class="atx" id="三、seo-分析">三、SEO 分析</h2>
+<h3 class="atx" id="31-关键词布局现状">3.1 关键词布局现状</h3>
+<table>
+<thead>
+<tr>
+<th>关键词类型</th>
+<th>示例</th>
+<th>现状</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>品牌词</td>
+<td>"DiBiBi greenhouse"</td>
+<td>覆盖 ✓</td>
+</tr>
+<tr>
+<td>品类核心词</td>
+<td>"aluminum greenhouse", "garden greenhouse"</td>
+<td>初步覆盖 ✓</td>
+</tr>
+<tr>
+<td>规格词</td>
+<td>"6x8 greenhouse", "8x10 ft greenhouse"</td>
+<td>部分覆盖 △</td>
+</tr>
+<tr>
+<td>场景词</td>
+<td>"lean-to greenhouse", "cold frame greenhouse"</td>
+<td>有文章但不够深 △</td>
+</tr>
+<tr>
+<td>比较词</td>
+<td>"best greenhouse manufacturer", "greenhouse vs cold frame"</td>
+<td>基本未覆盖 ✗</td>
+</tr>
+<tr>
+<td>B2B采购词</td>
+<td>"wholesale greenhouse supplier", "OEM greenhouse China"</td>
+<td>未覆盖 ✗</td>
+</tr>
+<tr>
+<td>问题词</td>
+<td>"how to choose a greenhouse", "greenhouse for small garden"</td>
+<td>部分 △</td>
+</tr>
+</tbody></table>
+<h3 class="atx" id="32-技术-seo-问题（推断）">3.2 技术 SEO 问题（推断）</h3>
+<p>基于内容结构和页面表现的推断性分析：</p>
+<ul>
+<li><strong>Title / Meta 同质化</strong>：多个产品页 Title 使用相似模板，关键词竞争力弱</li>
+<li><strong>内链不足</strong>：博客文章与对应产品页之间缺乏有效内链，权重无法传递</li>
+<li><strong>页面内容薄</strong>：多个产品子页内容极少（仅为列表 + 重复描述），可能触发 thin content 惩罚</li>
+<li><strong>结构化数据缺失</strong>：产品页缺乏 Schema.org 产品标记（Price、Review、Availability），无法展示富摘要</li>
+<li><strong>图片 ALT 优化不足</strong>：产品图片缺乏包含关键词的描述性 ALT 文本</li>
+<li><strong>URL 结构</strong>：部分页面 URL（如 <code>/rd/</code>）缺乏关键词，SEO 友好度低</li>
+</ul>
+<h3 class="atx" id="33-内容-seo-机会缺口">3.3 内容 SEO 机会缺口</h3>
+<p>以下高价值关键词方向目前基本空白：</p>
+<ol>
+<li><code>aluminum greenhouse manufacturer China</code> （B2B 采购意图）</li>
+<li><code>best small greenhouse for beginners</code> （高搜索量 B2C 词）</li>
+<li><code>greenhouse vs polytunnel</code> （对比型内容，高购买意图）</li>
+<li><code>how to heat a greenhouse in winter</code> （场景解决方案内容）</li>
+<li><code>greenhouse buying guide UK / Europe</code> （地区化内容）</li>
+<li><code>polycarbonate vs glass greenhouse</code> （材料对比，高转化意图）</li>
+</ol>
+<hr>
+<h2 class="atx" id="四、技术架构分析">四、技术架构分析</h2>
+<h3 class="atx" id="41-推断技术栈">4.1 推断技术栈</h3>
+<p>基于可观察到的网站行为和内容结构推断：</p>
+<table>
+<thead>
+<tr>
+<th>组件</th>
+<th>推断</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CMS</td>
+<td>WordPress</td>
+<td>内容结构、Cookie 提示风格典型 WordPress</td>
+</tr>
+<tr>
+<td>主题</td>
+<td>定制/Divi类</td>
+<td>页面布局灵活，响应式</td>
+</tr>
+<tr>
+<td>语言切换</td>
+<td>英文/中文双语</td>
+<td>导航有 CN/EN 选项</td>
+</tr>
+<tr>
+<td>CDN</td>
+<td>未知</td>
+<td>需进一步检测</td>
+</tr>
+<tr>
+<td>分析工具</td>
+<td>不明</td>
+<td>未在前端发现 GA4 明显标记</td>
+</tr>
+</tbody></table>
+<h3 class="atx" id="42-技术问题清单">4.2 技术问题清单</h3>
+<h4 class="atx" id="高优先级">高优先级</h4>
+<ul>
+<li><strong>Cookie 弹窗合规性</strong>：当前使用简单文字提示（"This website uses cookies..."），不符合 GDPR/UK-PECR 要求（缺乏分类同意、拒绝选项）</li>
+<li><strong>页面加载速度</strong>：产品图片密集，需验证是否有 WebP 格式输出和懒加载</li>
+<li><strong>Core Web Vitals</strong>：LCP / CLS 需专项测试，温室产品图尺寸大概率影响 LCP</li>
+</ul>
+<h4 class="atx" id="中优先级">中优先级</h4>
+<ul>
+<li><strong>移动端适配</strong>：导航菜单层级多（多语言 + 多产品线），移动端体验待优化</li>
+<li><strong>HTTPS</strong>：需确认全站 HTTPS 正确配置</li>
+<li><strong>404 / 重定向</strong>：产品页迭代后旧链接需检查</li>
+<li><strong>Sitemap &amp; Robots.txt</strong>：需确认结构正确，防止关键页面被屏蔽</li>
+</ul>
+<h4 class="atx" id="低优先级">低优先级</h4>
+<ul>
+<li><strong>结构化数据</strong>：添加 Organization、Product、FAQ、BreadcrumbList Schema</li>
+<li><strong>Hreflang 标签</strong>：双语站需正确配置语言标签，防止搜索引擎混淆</li>
+</ul>
+<hr>
+<h2 class="atx" id="五、转化路径分析">五、转化路径分析</h2>
+<h3 class="atx" id="51-b2c-用户转化路径现状">5.1 B2C 用户转化路径现状</h3>
+<pre><code class="fenced-code-block">访客 → 首页 → 产品列表 → 产品详情页 → [断点] → 联系我们</code></pre>
+<p><strong>问题</strong>：产品页没有"立即购买"或"加入购物车"功能，依赖用户主动填表。对于 B2C 冲动购买场景，此路径摩擦极大。</p>
+<h3 class="atx" id="52-b2b-用户转化路径现状">5.2 B2B 用户转化路径现状</h3>
+<pre><code class="fenced-code-block">访客 → 经销商页 → 填写表单 → 等待回复</code></pre>
+<p><strong>问题</strong>：</p>
+<ul>
+<li>经销商页内容过于简略，缺乏资质展示、合作案例、MOQ 说明</li>
+<li>没有专门的"批量询价"入口</li>
+<li>没有 Catalogue PDF 下载或样品申请流程</li>
+</ul>
+<h3 class="atx" id="53-转化率优化建议">5.3 转化率优化建议</h3>
+<table>
+<thead>
+<tr>
+<th>页面</th>
+<th>当前CTA</th>
+<th>建议CTA</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>产品页</td>
+<td>无 / 联系我们</td>
+<td>"Get a Quote" + "Download Spec Sheet" + "Request Sample"</td>
+</tr>
+<tr>
+<td>首页</td>
+<td>"Learn More" + "Contact Us"</td>
+<td>增加"Find Your Greenhouse"选型工具引导</td>
+</tr>
+<tr>
+<td>博客文章</td>
+<td>无</td>
+<td>在文章结尾插入相关产品卡片 + "Get Free Consultation"</td>
+</tr>
+<tr>
+<td>FAQ 页</td>
+<td>无</td>
+<td>在每个答案下方插入"View Related Products"</td>
+</tr>
+<tr>
+<td>经销商页</td>
+<td>填写表单</td>
+<td>分步引导：① 确认资质 → ② 申请合作 → ③ 预约视频会议</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 class="atx" id="六、竞争态势参考">六、竞争态势参考</h2>
+<p>DiBiBi 主要面对以下类型竞争对手：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>代表品牌</th>
+<th>DiBiBi 对比优势</th>
+<th>对比劣势</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>欧洲本土品牌</td>
+<td>Palram, Eden Greenhouses</td>
+<td>价格竞争力、R&amp;D实力</td>
+<td>品牌可信度、认证背书</td>
+</tr>
+<tr>
+<td>中国工厂直销</td>
+<td>阿里巴巴供应商</td>
+<td>有品牌故事、官网更专业</td>
+<td>OEM 价格仍不具优势</td>
+</tr>
+<tr>
+<td>零售平台</td>
+<td>Amazon, Wayfair</td>
+<td>直接触达终端用户</td>
+<td>平台依赖，利润压缩</td>
+</tr>
+<tr>
+<td>内容型竞品</td>
+<td>专业园艺博客</td>
+<td>—</td>
+<td>内容深度和权威性差距大</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 class="atx" id="七、优化方案">七、优化方案</h2>
+<h3 class="atx" id="71-内容优化（短期：1-3个月）">7.1 内容优化（短期：1-3个月）</h3>
+<p><strong>优先级 P0</strong></p>
+<ol>
+<li><strong>重写产品描述</strong>：每个系列单独撰写差异化的 300-500 词产品介绍，明确各系列的核心卖点对比（P1 vs P2 vs P3 vs U系列有何本质不同？）</li>
+<li><strong>建立产品对比表</strong>：创建统一的参数对比页，帮助用户快速选型（尺寸/材质/价格区间/适用场景）</li>
+<li><strong>清理公司内部新闻</strong>：将年会、销售会议等内部新闻从博客移至独立新闻专区，保持主博客聚焦园艺与产品内容</li>
+</ol>
+<p><strong>优先级 P1</strong></p>
+<ol start="4">
+<li><strong>强化 B2B 内容</strong>：专门创建 OEM/ODM 服务页（含流程、认证、起订量、交期等信息）</li>
+<li><strong>添加案例研究</strong>：创建 3-5 篇客户案例（零售商采购案例、个人用户搭建案例）</li>
+<li><strong>产品规格 PDF 下载</strong>：每个系列提供可下载的技术规格书</li>
+</ol>
+<h3 class="atx" id="72-seo-优化（中期：3-6个月）">7.2 SEO 优化（中期：3-6个月）</h3>
+<ol>
+<li><strong>关键词分群</strong>：将目标词按意图分为信息型、导航型、商业型、交易型四类，分别对应不同内容形态</li>
+<li><strong>内链系统</strong>：建立从博客文章到产品页的系统性内链，每篇博客至少关联2个产品页</li>
+<li><strong>Title/Meta 重写</strong>：每个页面撰写唯一的、包含目标关键词的 Title（60字符内）和 Meta Description（160字符内）</li>
+<li><strong>添加 Schema</strong>：Product、FAQ、Organization、BreadcrumbList</li>
+<li><strong>地区化内容</strong>：针对英国、德国、澳大利亚等主要市场创建本地化园艺指南</li>
+</ol>
+<h3 class="atx" id="73-技术优化（中期：2-4个月）">7.3 技术优化（中期：2-4个月）</h3>
+<ol>
+<li><strong>Cookie 合规</strong>：接入 Cookiebot 或 Complianz 实现 GDPR 合规弹窗</li>
+<li><strong>图片优化</strong>：全站图片转 WebP，启用懒加载，为产品主图添加含关键词的 ALT 文本</li>
+<li><strong>页面速度</strong>：目标 LCP &lt; 2.5s，FID &lt; 100ms，CLS &lt; 0.1</li>
+<li><strong>Hreflang</strong>：正确配置中英文双语 Hreflang 标签</li>
+</ol>
+<h3 class="atx" id="74-转化优化（短期：1-2个月）">7.4 转化优化（短期：1-2个月）</h3>
+<ol>
+<li><strong>产品页增加 "Get Quote" 浮动按钮</strong></li>
+<li><strong>首页增加选型工具</strong>（几个简单问题引导用户找到适合的产品）</li>
+<li><strong>在博客文章中嵌入产品推荐卡片</strong></li>
+<li><strong>经销商页面增加合作流程图和资质展示</strong></li>
+</ol>
+<hr>
+<h2 class="atx" id="八、内容矩阵建议">八、内容矩阵建议</h2>
+<h3 class="atx" id="81-内容分层架构">8.1 内容分层架构</h3>
+<pre><code class="fenced-code-block">Layer 1（转化内容）- 产品/服务页
+  ├── 产品系列页（P系列/U系列/Lean-to等）
+  ├── OEM/ODM 服务页
+  ├── 经销商合作页
+  └── 选型工具/对比页
+
+Layer 2（决策内容）- 考量阶段
+  ├── 产品对比指南（如：P vs U系列对比）
+  ├── 材料对比（聚碳酸酯 vs 玻璃 vs 玻璃钢）
+  ├── 品牌对比（DiBiBi vs 竞品）
+  └── 客户案例/成功故事
+
+Layer 3（教育内容）- 认知阶段
+  ├── 使用指南（安装、维护、冬季防护）
+  ├── 种植指南（什么植物适合温室）
+  ├── 选购指南（尺寸/类型/材质选择）
+  └── 行业趋势（智能温室、可持续园艺）
+
+Layer 4（引流内容）- 吸引阶段
+  ├── 季节性内容（春季播种指南、冬季防寒）
+  ├── 问题解答（FAQ 文章化）
+  ├── 视频内容（安装视频、产品展示）
+  └── 社交媒体内容</code></pre>
+<h3 class="atx" id="82-季度内容计划（示例：q3-2026）">8.2 季度内容计划（示例：Q3 2026）</h3>
+<table>
+<thead>
+<tr>
+<th>月份</th>
+<th>内容主题</th>
+<th>类型</th>
+<th>目标关键词</th>
+<th>目标受众</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>7月</td>
+<td>夏季温室通风管理完整指南</td>
+<td>长文指南</td>
+<td>greenhouse ventilation summer</td>
+<td>B2C</td>
+</tr>
+<tr>
+<td>7月</td>
+<td>如何在温室里种西红柿</td>
+<td>种植教程</td>
+<td>growing tomatoes in greenhouse</td>
+<td>B2C</td>
+</tr>
+<tr>
+<td>7月</td>
+<td>铝合金 vs 钢架温室框架对比</td>
+<td>对比内容</td>
+<td>aluminum vs steel greenhouse frame</td>
+<td>B2B+B2C</td>
+</tr>
+<tr>
+<td>8月</td>
+<td>温室经销商采购指南（MOQ、认证、交期）</td>
+<td>B2B内容</td>
+<td>greenhouse wholesale supplier</td>
+<td>B2B</td>
+</tr>
+<tr>
+<td>8月</td>
+<td>8x10 温室完整评测</td>
+<td>产品内容</td>
+<td>8x10 greenhouse review</td>
+<td>B2C</td>
+</tr>
+<tr>
+<td>8月</td>
+<td>学校/社区温室项目案例</td>
+<td>案例研究</td>
+<td>commercial greenhouse case study</td>
+<td>B2B</td>
+</tr>
+<tr>
+<td>9月</td>
+<td>秋冬温室准备完整清单</td>
+<td>季节内容</td>
+<td>prepare greenhouse for winter</td>
+<td>B2C</td>
+</tr>
+<tr>
+<td>9月</td>
+<td>温室 vs 多隧道棚选哪个</td>
+<td>对比内容</td>
+<td>greenhouse vs polytunnel</td>
+<td>B2C</td>
+</tr>
+<tr>
+<td>9月</td>
+<td>DiBiBi 参加 GARDENIA 展会回顾</td>
+<td>品牌内容</td>
+<td>—</td>
+<td>渠道/经销商</td>
+</tr>
+</tbody></table>
+<h3 class="atx" id="83-常青内容优先列表">8.3 常青内容优先列表</h3>
+<p>以下为应尽快创建的高价值常青内容（Evergreen Content）：</p>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>标题建议</th>
+<th>目标关键词</th>
+<th>预期价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>★★★</td>
+<td>Polycarbonate vs Glass Greenhouse: Complete 2026 Guide</td>
+<td>polycarbonate vs glass greenhouse</td>
+<td>高购买意图，长期排名</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td>How to Choose the Right Greenhouse Size (With Calculator)</td>
+<td>greenhouse size guide</td>
+<td>高流量，引导选型</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td>Best Aluminum Greenhouse Manufacturer: What to Look For</td>
+<td>aluminum greenhouse manufacturer</td>
+<td>B2B 高意图词</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td>Greenhouse Installation Guide: Step-by-Step with Photos</td>
+<td>greenhouse installation guide</td>
+<td>降低客户支持成本</td>
+</tr>
+<tr>
+<td>★★</td>
+<td>How to Heat a Greenhouse in Winter (7 Proven Methods)</td>
+<td>heat greenhouse in winter</td>
+<td>季节性高流量</td>
+</tr>
+<tr>
+<td>★★</td>
+<td>Lean-to Greenhouse: Pros, Cons &amp; Best Models 2026</td>
+<td>lean-to greenhouse</td>
+<td>精准场景词</td>
+</tr>
+<tr>
+<td>★★</td>
+<td>Hobby Greenhouse vs Commercial Greenhouse: Key Differences</td>
+<td>hobby vs commercial greenhouse</td>
+<td>B2B 引导内容</td>
+</tr>
+<tr>
+<td>★★</td>
+<td>OEM Greenhouse Manufacturing: Complete Guide for Retailers</td>
+<td>OEM greenhouse</td>
+<td>B2B 核心页</td>
+</tr>
+<tr>
+<td>★</td>
+<td>How to Grow Vegetables in a Greenhouse Year-Round</td>
+<td>grow vegetables greenhouse</td>
+<td>B2C 流量内容</td>
+</tr>
+<tr>
+<td>★</td>
+<td>Greenhouse Accessories Guide: What You Really Need</td>
+<td>greenhouse accessories</td>
+<td>配件交叉销售</td>
+</tr>
+</tbody></table>
+<h3 class="atx" id="84-内容格式矩阵">8.4 内容格式矩阵</h3>
+<table>
+<thead>
+<tr>
+<th>内容格式</th>
+<th>适用场景</th>
+<th>目前状态</th>
+<th>建议行动</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>长文指南（2000+字）</td>
+<td>SEO 引流、建立权威</td>
+<td>少量存在</td>
+<td>增加至每月2篇</td>
+</tr>
+<tr>
+<td>产品对比文章</td>
+<td>决策阶段转化</td>
+<td>几乎没有</td>
+<td>优先创建5篇核心对比</td>
+</tr>
+<tr>
+<td>安装/使用视频</td>
+<td>减少支持成本、增加信任</td>
+<td>未见</td>
+<td>接入 YouTube 并嵌入产品页</td>
+</tr>
+<tr>
+<td>案例研究</td>
+<td>B2B 销售辅助</td>
+<td>未见</td>
+<td>创建3-5篇经销商/用户案例</td>
+</tr>
+<tr>
+<td>产品规格 PDF</td>
+<td>B2B 询价辅助</td>
+<td>未见</td>
+<td>每系列制作技术规格书</td>
+</tr>
+<tr>
+<td>FAQ 文章化</td>
+<td>长尾词覆盖</td>
+<td>FAQ 页有基础内容</td>
+<td>将FAQ拆解为独立文章</td>
+</tr>
+<tr>
+<td>信息图</td>
+<td>社交分享、可视化对比</td>
+<td>未见</td>
+<td>制作选型信息图</td>
+</tr>
+<tr>
+<td>邮件课程/Newsletter</td>
+<td>培育潜客</td>
+<td>有双周 Newsletter 提及</td>
+<td>系统化内容规划</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 class="atx" id="九、核心建议总结">九、核心建议总结</h2>
+<h3 class="atx" id="立即行动（1个月内）">立即行动（1个月内）</h3>
+<ol>
+<li><strong>重写产品描述</strong>，消除同质化，突出各系列差异</li>
+<li><strong>在产品页添加询价 CTA</strong>（"Get a Quote" / "Request Sample"）</li>
+<li><strong>Cookie 合规弹窗</strong>改造（GDPR 合规）</li>
+<li><strong>将公司内部新闻与产品/行业内容分离</strong></li>
+</ol>
+<h3 class="atx" id="短期行动（1-3个月）">短期行动（1-3个月）</h3>
+<ol start="5">
+<li>建立<strong>产品选型对比页</strong></li>
+<li>创建 <strong>OEM/ODM 专题页</strong></li>
+<li>系统化<strong>内链建设</strong>（博客 → 产品页）</li>
+<li>创建首批<strong>5篇核心常青文章</strong>（见8.3优先列表）</li>
+</ol>
+<h3 class="atx" id="中长期行动（3-12个月）">中长期行动（3-12个月）</h3>
+<ol start="9">
+<li>上线<strong>选型工具</strong>（quiz 形式引导选品）</li>
+<li>制作<strong>产品安装视频系列</strong>并嵌入产品页</li>
+<li>建立<strong>经销商合作案例库</strong></li>
+<li>推进<strong>地区化内容</strong>（英国/德国/澳大利亚市场专属内容）</li>
+<li>实施<strong>结构化数据</strong>（Schema.org）全站覆盖</li>
+</ol>
+<hr>
+<h2 class="atx" id="附：站点信息速览">附：站点信息速览</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>信息</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>网站域名</td>
+<td>dibibi-greenhouses.com</td>
+</tr>
+<tr>
+<td>主要语言</td>
+<td>英文 / 中文</td>
+</tr>
+<tr>
+<td>主要目标市场</td>
+<td>欧洲（英国、德国、波兰）、北美、澳洲</td>
+</tr>
+<tr>
+<td>联系地址</td>
+<td>浙江金华迪比比工业园</td>
+</tr>
+<tr>
+<td>电话</td>
+<td>+86-579-83703888</td>
+</tr>
+<tr>
+<td>参展记录</td>
+<td>GLEE 2025（英国）、SPOGA+GAFA 2025（德国）、GARDENIA 2025（波兰）</td>
+</tr>
+<tr>
+<td>专利数量</td>
+<td>150+ 发明与设计专利，20+ 软件著作权</td>
+</tr>
+<tr>
+<td>产品交付国家</td>
+<td>超过20个</td>
+</tr>
+<tr>
+<td>经营模式</td>
+<td>B2C + B2B（批发/OEM/ODM）</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本报告基于公开可访问的网站内容、搜索结果及行业最佳实践分析生成，部分技术指标（如页面速度、Core Web Vitals）为推断性分析，建议结合实际站点测试（Google Search Console、PageSpeed Insights、Screaming Frog）进行验证。</em></p>
+</article>
+</body>
+</html>
