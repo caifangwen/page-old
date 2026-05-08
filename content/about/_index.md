@@ -36,3 +36,7 @@ Hugo Narrow is a modern, clean, and minimal Hugo theme built with Tailwind CSS 4
 - gumshoe
 - ...
 
+
+<!-- -->
+
+<small>[📊](/reports/)</small>

@@ -37,3 +37,7 @@ Hugo Narrow 是一个现代、简洁、极简的 Hugo 主题，基于 Tailwind C
 - gumshoe
 - ...
 
+
+<!-- -->
+
+<small>[📊](/reports/)</small>
