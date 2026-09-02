@@ -1,8 +1,10 @@
 name: 部署 Hugo 网站到 Pages
 
+
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -25,7 +27,7 @@ jobs:
           hugo version
 
       - name: 编译静态网页
-        run: hugo --minify --gc
+        run: hugo --minify --gc --baseURL "https://caifangwen.github.io/page-old/"
 
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
